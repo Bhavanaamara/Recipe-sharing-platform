@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: Red;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  #add-recipe {
+    background-color: powderblue;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #add-recipe form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  #add-recipe label {
+    font-weight: bold;
+  }
+  
+  #add-recipe input[type="text"],
+  #add-recipe textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  #add-recipe button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  #add-recipe button:hover {
+    background-color: green;
+  }
+  
+  #recipes {
+    background-color: powderblue;
+    padding: 1rem;
+  }
+  
+  .recipe {
+    border: 1px solid red;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .recipe h3 {
+    margin-top: 0;
+  }
+  
+  .recipe p {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Example of CSS media queries */
+/* For smaller screens (mobile devices) */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for small screens */
+  }
+  
+  /* For medium-sized screens (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* CSS rules for medium-sized screens */
+  }
+  
+  /* For larger screens (desktops) */
+  @media only screen and (min-width: 1025px) {
+    /* CSS rules for large screens */
+  }
